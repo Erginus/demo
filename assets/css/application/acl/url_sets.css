@@ -1,0 +1,17 @@
+.sortable-list{
+    min-height: 12px;
+}
+.placeholder {
+    background-color: #BFB;
+    border: 1px dashed #666;
+    height: 30px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+#drag_container .nav > li > a {
+    display: block;
+    padding: 2px 5px;
+    position: relative;
+    font-size: 12px;
+    cursor: move;
+}

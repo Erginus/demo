@@ -1,0 +1,6 @@
+Options All -Indexes
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|captcha|uploads|robots\.txt|favicon\.ico)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteCond %{HTTP_HOST} ^www.nritrance.com [NC]
+RewriteRule ^(.*)$ http://nritrance.com/$1 [L,R=301]
